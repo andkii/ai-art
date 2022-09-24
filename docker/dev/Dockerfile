@@ -13,7 +13,7 @@ ARG MONGO_URI
 ENV MONGO_URI="$MONGO_URI"
 
 # Create app directory
-WORKDIR /usr/src/app
+WORKDIR /src/app
 
 # Bundle app source
 COPY . .
